@@ -61,6 +61,7 @@ class SignInViewController: UIViewController {
         button.layer.cornerRadius = 8
         button.clipsToBounds = true
         // Additional customization if needed
+        button.addTarget(self, action: #selector(changingIntoHomePage), for: .touchUpInside)
         return button
     }()
 
@@ -74,6 +75,7 @@ class SignInViewController: UIViewController {
         button.layer.cornerRadius = 8
         button.clipsToBounds = true
         // Additional customization if needed
+        button.addTarget(self, action: #selector(goingtoSignUpPage), for: .touchUpInside)
         return button
     }()
 
@@ -122,6 +124,9 @@ class SignInViewController: UIViewController {
     }()
     
 
+    
+    //MARK: Override Func
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -133,12 +138,21 @@ class SignInViewController: UIViewController {
         
         //setting constrains
         settingConstrains()
+        
+        //Linking Sign UP
+        
+        //Changing to HomePage
     }
     
 
     
+    
+    //MARK: View Methods
+    
     func customizingAndAddingViews() {
         
+    
+        view.backgroundColor = .white
         view.addSubview(toptView)
         view.addSubview(lineView)
         view.addSubview(bottomview)
@@ -154,6 +168,8 @@ class SignInViewController: UIViewController {
         
         hstackView.addArrangedSubview(askingLabel)
         hstackView.addArrangedSubview(goToSignUpButton)
+        
+        
           
     }
     
@@ -219,5 +235,17 @@ class SignInViewController: UIViewController {
     
     
     
-
+    //MARK: Actions
+    
+    @objc func goingtoSignUpPage() {
+        
+        let signUpVC = SignUpViewController()
+        
+        present(signUpVC, animated: true,completion: nil)
+    }
+    
+    @objc func changingIntoHomePage() {
+        
+    }
+    
 }

@@ -33,7 +33,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func callSignInVC(scene: UIWindowScene) {
         
-        let signInVC = SignUpViewController()
+        let signInVC = SignInViewController()
         
         window = UIWindow(windowScene: scene)
         window?.backgroundColor = .white

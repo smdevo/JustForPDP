@@ -62,6 +62,7 @@ class SignUpViewController: UIViewController {
         button.layer.cornerRadius = 8
         button.clipsToBounds = true
         // Additional customization if needed
+        button.addTarget(self, action: #selector(goingBacktoSignInPage), for: .touchUpInside)
         return button
     }()
 
@@ -75,11 +76,11 @@ class SignUpViewController: UIViewController {
         button.layer.cornerRadius = 8
         button.clipsToBounds = true
         // Additional customization if needed
+        button.addTarget(self, action: #selector(goingBacktoSignInPage), for: .touchUpInside)
         return button
     }()
 
     //TextFields
-    
     private let nameTF: UITextField = {
         let textfield = UITextField()
         textfield.placeholder = "Name"
@@ -146,6 +147,9 @@ class SignUpViewController: UIViewController {
     }()
     
 
+    
+    //MARK: Override Func
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -157,12 +161,15 @@ class SignUpViewController: UIViewController {
         
         //setting constrains
         settingConstrains()
+        
+        //Going Back to Sign In
     }
     
 
-    
+    //MARK: View Methods
     func customizingAndAddingViews() {
         
+        view.backgroundColor = .white
         view.addSubview(toptView)
         view.addSubview(lineView)
         view.addSubview(bottomview)
@@ -252,6 +259,13 @@ class SignUpViewController: UIViewController {
     }
     
     
+    //MARK: Actions
+    
+    @objc func goingBacktoSignInPage() {
+        
+       dismiss(animated: true,completion: nil)
+        
+    }
     
 
 }
