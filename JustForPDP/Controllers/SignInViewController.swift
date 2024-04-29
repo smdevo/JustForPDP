@@ -20,7 +20,7 @@ class SignInViewController: UIViewController {
     
     private let lineView: UIView = {
         let view = UIView()
-        
+        view.backgroundColor = .systemGray5
        return view
     }()
     
@@ -35,7 +35,7 @@ class SignInViewController: UIViewController {
     private let instalabel: UILabel = {
         let label = UILabel()
         label.text = "Instagram"
-        label.font = UIFont.boldSystemFont(ofSize: 20)
+        label.font = UIFont.systemFont(ofSize: 30, weight: .bold)
         label.textColor = .black
         label.textAlignment = .center
         // Additional customization if needed
@@ -54,7 +54,7 @@ class SignInViewController: UIViewController {
 
     //Buttons
     private let signInButton: UIButton = {
-        let button = UIButton(type: .custom)
+        let button = UIButton(type: .system)
         button.setTitle("Sign In", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .blue
@@ -65,7 +65,7 @@ class SignInViewController: UIViewController {
     }()
 
     private let goToSignUpButton: UIButton = {
-        let button = UIButton(type: .custom)
+        let button = UIButton(type: .system)
         button.setTitle("Sign Up", for: .normal)
         button.setTitleColor(.blue, for: .normal)
         button.backgroundColor = .clear
@@ -104,7 +104,7 @@ class SignInViewController: UIViewController {
     //StackViews
     let vstackView: UIStackView = {
         let stackView = UIStackView()
-        stackView.backgroundColor = .systemGray5
+       // stackView.backgroundColor = .systemGray5
         stackView.axis = .vertical
         stackView.spacing = 16
         stackView.alignment = .fill
@@ -172,8 +172,8 @@ class SignInViewController: UIViewController {
             toptView.bottomAnchor.constraint(equalTo: lineView.topAnchor),
             
             lineView.heightAnchor.constraint(equalToConstant: 1),
-            lineView.leadingAnchor.constraint(equalTo: view.leadingAnchor,constant: 30),
-            lineView.trailingAnchor.constraint(equalTo: view.trailingAnchor,constant: -30),
+            lineView.leadingAnchor.constraint(equalTo: view.leadingAnchor,constant: 20),
+            lineView.trailingAnchor.constraint(equalTo: view.trailingAnchor,constant: -20),
             lineView.bottomAnchor.constraint(equalTo: bottomview.topAnchor),
             
             bottomview.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 1/8),
@@ -185,12 +185,15 @@ class SignInViewController: UIViewController {
             instalabel.leadingAnchor.constraint(equalTo: vstackView.leadingAnchor),
             instalabel.trailingAnchor.constraint(equalTo: vstackView.trailingAnchor),
             
+            userNameTF.heightAnchor.constraint(equalTo: vstackView.heightAnchor, multiplier: 1/6),
             userNameTF.leadingAnchor.constraint(equalTo: vstackView.leadingAnchor),
             userNameTF.trailingAnchor.constraint(equalTo: vstackView.trailingAnchor),
             
+            passwordTF.heightAnchor.constraint(equalTo: vstackView.heightAnchor, multiplier: 1/6),
             passwordTF.leadingAnchor.constraint(equalTo: vstackView.leadingAnchor),
             passwordTF.trailingAnchor.constraint(equalTo: vstackView.trailingAnchor),
             
+            signInButton.heightAnchor.constraint(equalTo: vstackView.heightAnchor, multiplier: 1/6),
             signInButton.leadingAnchor.constraint(equalTo: vstackView.leadingAnchor),
             signInButton.trailingAnchor.constraint(equalTo: vstackView.trailingAnchor),
             
@@ -200,13 +203,13 @@ class SignInViewController: UIViewController {
             vstackView.centerYAnchor.constraint(equalTo: toptView.centerYAnchor),
             
             
-            hstackView.heightAnchor.constraint(equalTo: bottomview.heightAnchor, multiplier: 1/2),
+            hstackView.heightAnchor.constraint(equalTo: bottomview.heightAnchor, multiplier: 1/3),
             hstackView.leadingAnchor.constraint(equalTo: bottomview.leadingAnchor,constant: 20),
             hstackView.trailingAnchor.constraint(equalTo: bottomview.trailingAnchor,constant: -20),
             hstackView.centerYAnchor.constraint(equalTo: bottomview.centerYAnchor),
             
 
-        
+            goToSignUpButton.widthAnchor.constraint(equalTo: bottomview.widthAnchor, multiplier: 1/4),
         ])
         
         
