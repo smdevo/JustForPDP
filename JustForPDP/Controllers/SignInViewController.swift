@@ -246,6 +246,8 @@ class SignInViewController: UIViewController {
     
     @objc func changingIntoHomePage() {
         
+        UIViewController.scenedelegete.callHomeVC()
+        
     }
     
 }

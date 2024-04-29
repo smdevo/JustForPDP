@@ -48,6 +48,9 @@ class EightJustViewController: UIViewController, UITableViewDataSource, UITableV
     
     func settingView() {
         title = "Posts"
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "ellipsis"), style: .plain, target: self, action: #selector(changeBackIntoSignInPage))
+        
     }
     
 
@@ -65,7 +68,7 @@ class EightJustViewController: UIViewController, UITableViewDataSource, UITableV
     
     func settingConstraintsToViews() {
         
-        tableView.setIntowithConst(into: view,distance: 10)
+        tableView.setIntowithConst(into: view)
         
     }
     
@@ -78,6 +81,24 @@ class EightJustViewController: UIViewController, UITableViewDataSource, UITableV
     }
     
     
+    
+    //MARK: Actions
+    
+    @objc func changeBackIntoSignInPage() {
+        
+        //UIViewController.scenedelegete.callSignInVC()
+        
+        let alertLogoutC = UIAlertController(title: "Log out", message: "Do you want to Log out?", preferredStyle: .alert)
+        
+        alertLogoutC.addAction(UIAlertAction(title: "No", style: .cancel))
+        
+        alertLogoutC.addAction(UIAlertAction(title: "Yes",style: .default,handler: { action in
+            UIViewController.scenedelegete.callSignInVC()
+        }))
+        
+        present(alertLogoutC, animated: true)
+        
+    }
     
     
     

@@ -89,7 +89,7 @@ class FirstTableViewCell: UITableViewCell {
         
         
         postimageview.contentMode = .scaleAspectFill
-        postimageview.layer.cornerRadius = 15
+        postimageview.layer.cornerRadius = 3
         postimageview.clipsToBounds = true
     }
     

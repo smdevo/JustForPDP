@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
        
-        guard let ws = (scene as? UIWindowScene) else { return }
+        guard let _ = (scene as? UIWindowScene) else { return }
         
 //        if islogged {
 //            callHomeVC(scene: ws)
@@ -26,56 +26,95 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         
         
-        callSignInVC(scene: ws)
+        callSignInVC()
+        
+       // callSignInVC(scene: ws)
         
     }
 
-    
-    func callSignInVC(scene: UIWindowScene) {
+    func callSignInVC() {
         
         let signInVC = SignInViewController()
         
-        window = UIWindow(windowScene: scene)
+        if window == nil {
+            window = UIWindow(frame: UIScreen.main.bounds)
+        }
+        
         window?.backgroundColor = .white
         window?.rootViewController = signInVC
         window?.makeKeyAndVisible()
-
+        
+        
     }
     
     
     
-    
-    func callHomeVC(scene: UIWindowScene) {
-        
-        
-//        let navBarAppearance = UINavigationBarAppearance()
-//        navBarAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white] // Set the color of the title
-//
+    func callHomeVC() {
         
         let homeVC = EightJustViewController()
         let nc = UINavigationController(rootViewController: homeVC)
-
-//        nc.navigationBar.standardAppearance = navBarAppearance
-//        nc.navigationBar.scrollEdgeAppearance = navBarAppearance
-        
-        
-        //fvc.view.backgroundColor = .orange
         
         nc.navigationBar.prefersLargeTitles = true
-        //nc.navigationBar.tintColor = .black
-        //nc.navigationBar.backgroundColor = .systemGray5
-        //nc.navigationBar.clipsToBounds = true
-        //nc.navigationBar.isTranslucent = false
         
         
-        window = UIWindow(windowScene: scene)
+        if window == nil {
+            window = UIWindow(frame: UIScreen.main.bounds)
+        }
+        
         window?.backgroundColor = .white
-        
         window?.rootViewController = nc
         window?.makeKeyAndVisible()
         
+        
     }
-   
+    
+    
+    
+//    func callSignInVC(scene: UIWindowScene) {
+//
+//        let signInVC = SignInViewController()
+//
+//        window = UIWindow(windowScene: scene)
+//        window?.backgroundColor = .white
+//        window?.rootViewController = signInVC
+//        window?.makeKeyAndVisible()
+//
+//    }
+//
+//
+//
+//
+//    func callHomeVC(scene: UIWindowScene) {
+//
+//
+////        let navBarAppearance = UINavigationBarAppearance()
+////        navBarAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white] // Set the color of the title
+////
+//
+//        let homeVC = EightJustViewController()
+//        let nc = UINavigationController(rootViewController: homeVC)
+//
+////        nc.navigationBar.standardAppearance = navBarAppearance
+////        nc.navigationBar.scrollEdgeAppearance = navBarAppearance
+//
+//
+//        //fvc.view.backgroundColor = .orange
+//
+//        nc.navigationBar.prefersLargeTitles = true
+//        //nc.navigationBar.tintColor = .black
+//        //nc.navigationBar.backgroundColor = .systemGray5
+//        //nc.navigationBar.clipsToBounds = true
+//        //nc.navigationBar.isTranslucent = false
+//
+//
+//        window = UIWindow(windowScene: scene)
+//        window?.backgroundColor = .white
+//
+//        window?.rootViewController = nc
+//        window?.makeKeyAndVisible()
+//
+//    }
+//
 
 
 }
