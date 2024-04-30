@@ -36,7 +36,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func callSignInVC() {
         
-        let signInVC = ScrollJustVC()
+        let signInVC = SignInViewController()
         
         if window == nil {
             window = UIWindow(frame: UIScreen.main.bounds)
