@@ -26,6 +26,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         
         
+        //callHomeCVC()
+        
         callSignInVC()
         
        // callSignInVC(scene: ws)
@@ -49,7 +51,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     
     
-    func callHomeVC() {
+    func callHomeCVC() {
+        let homeVC = CollectionVC()
+        let nc = UINavigationController(rootViewController: homeVC)
+        
+        nc.navigationBar.prefersLargeTitles = true
+        
+        if window == nil {
+            window = UIWindow(frame: UIScreen.main.bounds)
+        }
+        window?.backgroundColor = .white
+        window?.rootViewController = nc
+        window?.makeKeyAndVisible()
+        
+    }
+    
+    
+    
+    func callHomeTableVC() {
         
         let homeVC = EightJustViewController()
         let nc = UINavigationController(rootViewController: homeVC)

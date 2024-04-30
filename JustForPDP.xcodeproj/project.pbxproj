@@ -30,6 +30,9 @@
 		7CA45F5E2BDCD684004260FE /* extensionToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA45F5D2BDCD684004260FE /* extensionToView.swift */; };
 		7CA45F612BDCDA23004260FE /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA45F602BDCDA23004260FE /* FirstTableViewCell.swift */; };
 		7CA45F642BDCDA5B004260FE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA45F632BDCDA5B004260FE /* User.swift */; };
+		7CBEEED52BE1045F00852DE2 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEEED42BE1045E00852DE2 /* CollectionVC.swift */; };
+		7CBEEED72BE1049100852DE2 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEEED62BE1049100852DE2 /* FirstCollectionViewCell.swift */; };
+		7CBEEED92BE1088700852DE2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEEED82BE1088700852DE2 /* Post.swift */; };
 		7CD559602BDF812C000A092A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD5595F2BDF812C000A092A /* SignInViewController.swift */; };
 		7CD559622BDF8173000A092A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD559612BDF8173000A092A /* SignUpViewController.swift */; };
 		7CD559642BDF840D000A092A /* ExtensionToUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD559632BDF840D000A092A /* ExtensionToUIVC.swift */; };
@@ -61,6 +64,9 @@
 		7CA45F5D2BDCD684004260FE /* extensionToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionToView.swift; sourceTree = "<group>"; };
 		7CA45F602BDCDA23004260FE /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
 		7CA45F632BDCDA5B004260FE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7CBEEED42BE1045E00852DE2 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		7CBEEED62BE1049100852DE2 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		7CBEEED82BE1088700852DE2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		7CD5595F2BDF812C000A092A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		7CD559612BDF8173000A092A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7CD559632BDF840D000A092A /* ExtensionToUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionToUIVC.swift; sourceTree = "<group>"; };
@@ -146,6 +152,7 @@
 				7CA45F5A2BDCD5AE004260FE /* EightJustViewController.swift */,
 				7CD5595F2BDF812C000A092A /* SignInViewController.swift */,
 				7CD559612BDF8173000A092A /* SignUpViewController.swift */,
+				7CBEEED42BE1045E00852DE2 /* CollectionVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -163,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				7CA45F602BDCDA23004260FE /* FirstTableViewCell.swift */,
+				7CBEEED62BE1049100852DE2 /* FirstCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -171,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				7CA45F632BDCDA5B004260FE /* User.swift */,
+				7CBEEED82BE1088700852DE2 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,10 +260,13 @@
 			files = (
 				7CA45F612BDCDA23004260FE /* FirstTableViewCell.swift in Sources */,
 				7C39B0532BDAACD2008593C4 /* FourJustViewController.swift in Sources */,
+				7CBEEED52BE1045F00852DE2 /* CollectionVC.swift in Sources */,
+				7CBEEED92BE1088700852DE2 /* Post.swift in Sources */,
 				7C39B0462BDA6691008593C4 /* SecondViewController.swift in Sources */,
 				7C39B0512BDAA68D008593C4 /* ThirdJustViewController.swift in Sources */,
 				7CD559642BDF840D000A092A /* ExtensionToUIVC.swift in Sources */,
 				7C6127982BD9586300189D4A /* FirstJustViewController.swift in Sources */,
+				7CBEEED72BE1049100852DE2 /* FirstCollectionViewCell.swift in Sources */,
 				7C6127812BD93CB300189D4A /* ViewController.swift in Sources */,
 				7C61277D2BD93CB300189D4A /* AppDelegate.swift in Sources */,
 				7C61277F2BD93CB300189D4A /* SceneDelegate.swift in Sources */,
