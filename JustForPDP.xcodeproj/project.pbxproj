@@ -33,6 +33,9 @@
 		7CBEEED52BE1045F00852DE2 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEEED42BE1045E00852DE2 /* CollectionVC.swift */; };
 		7CBEEED72BE1049100852DE2 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEEED62BE1049100852DE2 /* FirstCollectionViewCell.swift */; };
 		7CBEEED92BE1088700852DE2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEEED82BE1088700852DE2 /* Post.swift */; };
+		7CBEEEDC2BE1217500852DE2 /* FScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEEEDA2BE1217500852DE2 /* FScrollVC.swift */; };
+		7CBEEEDD2BE1217500852DE2 /* FScrollVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CBEEEDB2BE1217500852DE2 /* FScrollVC.xib */; };
+		7CBEEEDF2BE138DE00852DE2 /* ScrollJustVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEEEDE2BE138DE00852DE2 /* ScrollJustVC.swift */; };
 		7CD559602BDF812C000A092A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD5595F2BDF812C000A092A /* SignInViewController.swift */; };
 		7CD559622BDF8173000A092A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD559612BDF8173000A092A /* SignUpViewController.swift */; };
 		7CD559642BDF840D000A092A /* ExtensionToUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD559632BDF840D000A092A /* ExtensionToUIVC.swift */; };
@@ -67,6 +70,9 @@
 		7CBEEED42BE1045E00852DE2 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 		7CBEEED62BE1049100852DE2 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
 		7CBEEED82BE1088700852DE2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		7CBEEEDA2BE1217500852DE2 /* FScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FScrollVC.swift; sourceTree = "<group>"; };
+		7CBEEEDB2BE1217500852DE2 /* FScrollVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FScrollVC.xib; sourceTree = "<group>"; };
+		7CBEEEDE2BE138DE00852DE2 /* ScrollJustVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollJustVC.swift; sourceTree = "<group>"; };
 		7CD5595F2BDF812C000A092A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		7CD559612BDF8173000A092A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7CD559632BDF840D000A092A /* ExtensionToUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionToUIVC.swift; sourceTree = "<group>"; };
@@ -122,6 +128,8 @@
 				7C6127922BD93CE600189D4A /* FirstViewController.xib */,
 				7C39B0442BDA6691008593C4 /* SecondViewController.swift */,
 				7C39B0452BDA6691008593C4 /* SecondViewController.xib */,
+				7CBEEEDA2BE1217500852DE2 /* FScrollVC.swift */,
+				7CBEEEDB2BE1217500852DE2 /* FScrollVC.xib */,
 			);
 			path = XibControllers;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 				7CD5595F2BDF812C000A092A /* SignInViewController.swift */,
 				7CD559612BDF8173000A092A /* SignUpViewController.swift */,
 				7CBEEED42BE1045E00852DE2 /* CollectionVC.swift */,
+				7CBEEEDE2BE138DE00852DE2 /* ScrollJustVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -243,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBEEEDD2BE1217500852DE2 /* FScrollVC.xib in Resources */,
 				7C6127892BD93CB800189D4A /* LaunchScreen.storyboard in Resources */,
 				7C6127862BD93CB800189D4A /* Assets.xcassets in Resources */,
 				7C6127842BD93CB300189D4A /* Main.storyboard in Resources */,
@@ -259,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA45F612BDCDA23004260FE /* FirstTableViewCell.swift in Sources */,
+				7CBEEEDC2BE1217500852DE2 /* FScrollVC.swift in Sources */,
 				7C39B0532BDAACD2008593C4 /* FourJustViewController.swift in Sources */,
 				7CBEEED52BE1045F00852DE2 /* CollectionVC.swift in Sources */,
 				7CBEEED92BE1088700852DE2 /* Post.swift in Sources */,
@@ -270,6 +281,7 @@
 				7C6127812BD93CB300189D4A /* ViewController.swift in Sources */,
 				7C61277D2BD93CB300189D4A /* AppDelegate.swift in Sources */,
 				7C61277F2BD93CB300189D4A /* SceneDelegate.swift in Sources */,
+				7CBEEEDF2BE138DE00852DE2 /* ScrollJustVC.swift in Sources */,
 				7CA45F562BDCD399004260FE /* JustTableViewController.swift in Sources */,
 				7CD559602BDF812C000A092A /* SignInViewController.swift in Sources */,
 				7C60EE5C2BDBD2F2005679A7 /* SixJustViewController.swift in Sources */,
