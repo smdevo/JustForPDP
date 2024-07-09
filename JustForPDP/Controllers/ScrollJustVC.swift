@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Alamofire
+import RealmSwift
 
 class ScrollJustVC: UIViewController {
     

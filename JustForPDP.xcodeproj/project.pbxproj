@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB53E3C22D2CAF1D030B101 /* Pods_JustForPDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F170A95CDEA7F0FDE5701279 /* Pods_JustForPDP.framework */; };
+		7C21863F2BF901CA00897368 /* JustForXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C21863D2BF901CA00897368 /* JustForXibViewController.swift */; };
+		7C2186402BF901CA00897368 /* JustForXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C21863E2BF901CA00897368 /* JustForXibViewController.xib */; };
 		7C39B0462BDA6691008593C4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39B0442BDA6691008593C4 /* SecondViewController.swift */; };
 		7C39B0472BDA6691008593C4 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C39B0452BDA6691008593C4 /* SecondViewController.xib */; };
 		7C39B0492BDA70A5008593C4 /* SecondJustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39B0482BDA70A5008593C4 /* SecondJustViewController.swift */; };
 		7C39B04B2BDA8461008593C4 /* ByAIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39B04A2BDA8461008593C4 /* ByAIViewController.swift */; };
 		7C39B0512BDAA68D008593C4 /* ThirdJustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39B0502BDAA68D008593C4 /* ThirdJustViewController.swift */; };
 		7C39B0532BDAACD2008593C4 /* FourJustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39B0522BDAACD2008593C4 /* FourJustViewController.swift */; };
+		7C601B042C0C919F00365DAD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C601B062C0C919F00365DAD /* Localizable.strings */; };
 		7C60EE5A2BDBC515005679A7 /* FiveJustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60EE592BDBC515005679A7 /* FiveJustViewController.swift */; };
 		7C60EE5C2BDBD2F2005679A7 /* SixJustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60EE5B2BDBD2F2005679A7 /* SixJustViewController.swift */; };
 		7C61277D2BD93CB300189D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61277C2BD93CB300189D4A /* AppDelegate.swift */; };
@@ -39,15 +43,27 @@
 		7CD559602BDF812C000A092A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD5595F2BDF812C000A092A /* SignInViewController.swift */; };
 		7CD559622BDF8173000A092A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD559612BDF8173000A092A /* SignUpViewController.swift */; };
 		7CD559642BDF840D000A092A /* ExtensionToUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD559632BDF840D000A092A /* ExtensionToUIVC.swift */; };
+		7CF8183F2C3D364100FF873D /* AFHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF8183E2C3D364100FF873D /* AFHTTP.swift */; };
+		7CF818422C3D43B100FF873D /* PostF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF818412C3D43B100FF873D /* PostF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48B820317041DA569D8F6E4B /* Pods-JustForPDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustForPDP.release.xcconfig"; path = "Target Support Files/Pods-JustForPDP/Pods-JustForPDP.release.xcconfig"; sourceTree = "<group>"; };
+		7C21863D2BF901CA00897368 /* JustForXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustForXibViewController.swift; sourceTree = "<group>"; };
+		7C21863E2BF901CA00897368 /* JustForXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JustForXibViewController.xib; sourceTree = "<group>"; };
 		7C39B0442BDA6691008593C4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7C39B0452BDA6691008593C4 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		7C39B0482BDA70A5008593C4 /* SecondJustViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondJustViewController.swift; sourceTree = "<group>"; };
 		7C39B04A2BDA8461008593C4 /* ByAIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByAIViewController.swift; sourceTree = "<group>"; };
 		7C39B0502BDAA68D008593C4 /* ThirdJustViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdJustViewController.swift; sourceTree = "<group>"; };
 		7C39B0522BDAACD2008593C4 /* FourJustViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourJustViewController.swift; sourceTree = "<group>"; };
+		7C601B052C0C919F00365DAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C601B072C0C91FF00365DAD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		7C601B082C0C920000365DAD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7C601B092C0C920100365DAD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C601B0A2C0C922D00365DAD /* uz-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-UZ"; path = "uz-UZ.lproj/Main.strings"; sourceTree = "<group>"; };
+		7C601B0B2C0C922E00365DAD /* uz-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-UZ"; path = "uz-UZ.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7C601B0C2C0C923000365DAD /* uz-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-UZ"; path = "uz-UZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7C60EE592BDBC515005679A7 /* FiveJustViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveJustViewController.swift; sourceTree = "<group>"; };
 		7C60EE5B2BDBD2F2005679A7 /* SixJustViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixJustViewController.swift; sourceTree = "<group>"; };
 		7C6127792BD93CB300189D4A /* JustForPDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustForPDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +92,10 @@
 		7CD5595F2BDF812C000A092A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		7CD559612BDF8173000A092A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7CD559632BDF840D000A092A /* ExtensionToUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionToUIVC.swift; sourceTree = "<group>"; };
+		7CF8183E2C3D364100FF873D /* AFHTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHTTP.swift; sourceTree = "<group>"; };
+		7CF818412C3D43B100FF873D /* PostF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostF.swift; sourceTree = "<group>"; };
+		E869CDFC10D3CBD2F2B33114 /* Pods-JustForPDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustForPDP.debug.xcconfig"; path = "Target Support Files/Pods-JustForPDP/Pods-JustForPDP.debug.xcconfig"; sourceTree = "<group>"; };
+		F170A95CDEA7F0FDE5701279 /* Pods_JustForPDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustForPDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,17 +103,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB53E3C22D2CAF1D030B101 /* Pods_JustForPDP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6849E2E95A6DE1F765613382 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F170A95CDEA7F0FDE5701279 /* Pods_JustForPDP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		775D4A03DC8E814E82BEA039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E869CDFC10D3CBD2F2B33114 /* Pods-JustForPDP.debug.xcconfig */,
+				48B820317041DA569D8F6E4B /* Pods-JustForPDP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C601B012C0C90CB00365DAD /* StringFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7C601B062C0C919F00365DAD /* Localizable.strings */,
+			);
+			path = StringFiles;
+			sourceTree = "<group>";
+		};
 		7C6127702BD93CB300189D4A = {
 			isa = PBXGroup;
 			children = (
 				7C61277B2BD93CB300189D4A /* JustForPDP */,
 				7C61277A2BD93CB300189D4A /* Products */,
+				775D4A03DC8E814E82BEA039 /* Pods */,
+				6849E2E95A6DE1F765613382 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,11 +158,13 @@
 			children = (
 				7C61277C2BD93CB300189D4A /* AppDelegate.swift */,
 				7C61277E2BD93CB300189D4A /* SceneDelegate.swift */,
+				7CF8183D2C3D362900FF873D /* Networking */,
 				7C6127962BD9583900189D4A /* Controllers */,
 				7C6127902BD93CC400189D4A /* XibControllers */,
 				7CA45F5C2BDCD65E004260FE /* Extentions */,
 				7CA45F5F2BDCD9F3004260FE /* Cells */,
 				7CA45F622BDCDA38004260FE /* Models */,
+				7C601B012C0C90CB00365DAD /* StringFiles */,
 				7C6127952BD93D8B00189D4A /* AppUtilities */,
 				7C61278A2BD93CB800189D4A /* Info.plist */,
 			);
@@ -130,6 +180,8 @@
 				7C39B0452BDA6691008593C4 /* SecondViewController.xib */,
 				7CBEEEDA2BE1217500852DE2 /* FScrollVC.swift */,
 				7CBEEEDB2BE1217500852DE2 /* FScrollVC.xib */,
+				7C21863D2BF901CA00897368 /* JustForXibViewController.swift */,
+				7C21863E2BF901CA00897368 /* JustForXibViewController.xib */,
 			);
 			path = XibControllers;
 			sourceTree = "<group>";
@@ -193,6 +245,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		7CF8183D2C3D362900FF873D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7CF818402C3D43A400FF873D /* Models */,
+				7CF8183E2C3D364100FF873D /* AFHTTP.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7CF818402C3D43A400FF873D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CF818412C3D43B100FF873D /* PostF.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C61278D2BD93CB800189D4A /* Build configuration list for PBXNativeTarget "JustForPDP" */;
 			buildPhases = (
+				CA001BA62B2F065EAABC0167 /* [CP] Check Pods Manifest.lock */,
 				7C6127752BD93CB300189D4A /* Sources */,
 				7C6127762BD93CB300189D4A /* Frameworks */,
 				7C6127772BD93CB300189D4A /* Resources */,
+				49A2DC93D607E46F2CF294EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +307,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				"uz-UZ",
 			);
 			mainGroup = 7C6127702BD93CB300189D4A;
 			productRefGroup = 7C61277A2BD93CB300189D4A /* Products */;
@@ -257,11 +330,55 @@
 				7C6127862BD93CB800189D4A /* Assets.xcassets in Resources */,
 				7C6127842BD93CB300189D4A /* Main.storyboard in Resources */,
 				7C6127942BD93CE600189D4A /* FirstViewController.xib in Resources */,
+				7C601B042C0C919F00365DAD /* Localizable.strings in Resources */,
 				7C39B0472BDA6691008593C4 /* SecondViewController.xib in Resources */,
+				7C2186402BF901CA00897368 /* JustForXibViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49A2DC93D607E46F2CF294EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustForPDP/Pods-JustForPDP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustForPDP/Pods-JustForPDP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JustForPDP/Pods-JustForPDP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA001BA62B2F065EAABC0167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustForPDP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C6127752BD93CB300189D4A /* Sources */ = {
@@ -277,6 +394,7 @@
 				7C39B0512BDAA68D008593C4 /* ThirdJustViewController.swift in Sources */,
 				7CD559642BDF840D000A092A /* ExtensionToUIVC.swift in Sources */,
 				7C6127982BD9586300189D4A /* FirstJustViewController.swift in Sources */,
+				7C21863F2BF901CA00897368 /* JustForXibViewController.swift in Sources */,
 				7CBEEED72BE1049100852DE2 /* FirstCollectionViewCell.swift in Sources */,
 				7C6127812BD93CB300189D4A /* ViewController.swift in Sources */,
 				7C61277D2BD93CB300189D4A /* AppDelegate.swift in Sources */,
@@ -285,11 +403,13 @@
 				7CA45F562BDCD399004260FE /* JustTableViewController.swift in Sources */,
 				7CD559602BDF812C000A092A /* SignInViewController.swift in Sources */,
 				7C60EE5C2BDBD2F2005679A7 /* SixJustViewController.swift in Sources */,
+				7CF8183F2C3D364100FF873D /* AFHTTP.swift in Sources */,
 				7C6127932BD93CE600189D4A /* FirstViewController.swift in Sources */,
 				7C60EE5A2BDBC515005679A7 /* FiveJustViewController.swift in Sources */,
 				7CA45F5E2BDCD684004260FE /* extensionToView.swift in Sources */,
 				7CD559622BDF8173000A092A /* SignUpViewController.swift in Sources */,
 				7CA45F5B2BDCD5AE004260FE /* EightJustViewController.swift in Sources */,
+				7CF818422C3D43B100FF873D /* PostF.swift in Sources */,
 				7CA45F642BDCDA5B004260FE /* User.swift in Sources */,
 				7C39B0492BDA70A5008593C4 /* SecondJustViewController.swift in Sources */,
 				7C39B04B2BDA8461008593C4 /* ByAIViewController.swift in Sources */,
@@ -300,10 +420,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7C601B062C0C919F00365DAD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C601B052C0C919F00365DAD /* en */,
+				7C601B092C0C920100365DAD /* ru */,
+				7C601B0C2C0C923000365DAD /* uz-UZ */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		7C6127822BD93CB300189D4A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7C6127832BD93CB300189D4A /* Base */,
+				7C601B072C0C91FF00365DAD /* ru */,
+				7C601B0A2C0C922D00365DAD /* uz-UZ */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +444,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				7C6127882BD93CB800189D4A /* Base */,
+				7C601B082C0C920000365DAD /* ru */,
+				7C601B0B2C0C922E00365DAD /* uz-UZ */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -383,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -435,6 +571,7 @@
 		};
 		7C61278E2BD93CB800189D4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E869CDFC10D3CBD2F2B33114 /* Pods-JustForPDP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +604,7 @@
 		};
 		7C61278F2BD93CB800189D4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B820317041DA569D8F6E4B /* Pods-JustForPDP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

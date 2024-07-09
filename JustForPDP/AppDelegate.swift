@@ -5,6 +5,7 @@
 //  Created by Samandar on 24/04/24.
 //
 
+import SnapKit
 import UIKit
 
 @main
